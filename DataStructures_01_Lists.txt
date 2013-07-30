@@ -1,0 +1,78 @@
+-------------------------
+Data Structures 01: Lists
+-------------------------
+In this section we'll explore list structures. There are two fundamental
+types, a Linked List and an Array List. They differ in how they allocate and
+reference memory needed for storing data. An Array List stores all its data
+contiguously, such as:
+
+	| 0 | 1 | 2 | 3 |
+
+While a Linked List stores each data item separately in memory. Each data
+item is part of a Node which links to the item before and after it. The
+list has a Head and a Tail, which are the first and last nodes in the list,
+respectively.
+
+	| 0 | <-> | 1 | <-> | 2 | <-> | 3 |
+
+
+----------
+Exercise 0
+----------
+Create an implementation of a Linked List. It should have the following 
+structure:
+
+	class Node:
+		attributes:
+			next Node
+			previous Node
+			value int
+
+	class LinkedList:
+		methods:
+			append(value int)
+			get(index int) returns int
+			insert(index int, value int)
+			remove(index int)
+			length() returns int
+			traverse(func(int))
+		
+		attributes:
+			head Node
+			tail Node
+			len int
+
+If you have access to an underlying array type, implement an Array List with
+the same methods, but use an array for storing its data. Give the Array List
+a growth factor which determines how much larger it becomes when a call to 
+append(...) overflows its bounds.
+
+
+----------
+Exercise 1
+----------
+Insert the first 10 integers, 0 to 9, into the a list. Traverse the list in
+order and print them to standard output.
+
+
+----------
+Exercise 2
+----------
+For n = 100, 1000, ..., 100k, time the following functions against your Linked
+List and for an Array or Array List. If you have an Array List implementation,
+try this against a variety of growth factors.
+
+	a. Append n integers
+	b. Get a random index 10000 times.
+	c. Remove all elements from the front of the list.
+
+
+-------------------
+Follow-Up Questions
+-------------------
+What are the time complexities of the various list method for a Linked List?
+What are the time complexities of the various list method for an Array List?
+Under what circumstances might one use one or the other list type?
+Why is removing the first element of a Linked List faster than an Array List?
+How does growth factor affect the speed of appending to an Array List?
+What is the disadvantage of using a high growth factor?
