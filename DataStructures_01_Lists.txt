@@ -133,14 +133,14 @@ algorithm runs in O(n) time because that is its worst case behavior.
 
 Let's consider one final algorithm containing a nested loop.
 
-	matrix = [an n x n matrix]
 	for i in some list:
 		for j in some list:
-			matrix[i,j] = i * j
+			print i, j
 
 The final line runs in O(1) time. It is inside a for loop running O(n) time,
 which is itself inside another for loop. Thus the time complexity is 
 O(1*n*n + 1) = O(n^2), which is known as quadratic time.
+
 
 -------------------
 Follow-Up Questions
