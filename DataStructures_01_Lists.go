@@ -43,7 +43,7 @@ func testList(listType string, n int, list cslib.List) {
 func main() {
 	var list cslib.List
 
-	// 1. Insert 10 random integers and print them out in order.
+	// 1. Insert 10 integers and print them out in order.
 	fmt.Println("Exercise 1:")
 
 	list = &cslib.LinkedList{}
