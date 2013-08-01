@@ -101,9 +101,9 @@ denoted O(1).
 
 Another algorithm might consist of summing the elements of a list.
 
-		sum = 0
-		for item in some list:
-			sum = sum + item
+	sum = 0
+	for item in some list:
+		sum = sum + item
 
 The first statement takes O(1) time, as does the nested addition statement.
 The loop is executed n times, so it takes O(1 * n) = O(n) time. The whole
