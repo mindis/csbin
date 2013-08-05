@@ -53,7 +53,7 @@ func fibonacci2(n int) int {
 	return x
 }
 
-// Iterative version of the Fibonacci function.
+// Tail recursive version of the Fibonacci function.
 func fib3Inner(x, y, n int) int {
 	if n > 0 {
 		return fib3Inner(y, x+y, n-1)
