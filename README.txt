@@ -32,9 +32,10 @@ to the following.
 	Data Structures 04: Heaps
 	Algorithms 04: Heapsort
 	Data Structures 05: Red-Black Trees
-	Techniques 04: Memoization
-	Techniques 05: Schwartzian Transforms
 	Data Structions 06: Hash Maps
+	Techniques 04: Memoization
+	Algorithms 05: Schwartzian Transforms
+	Techniques 05: Dynamic Optimization
 
 This text and code is distributed under the Creative Commons license 
 CC BY-NC-SA (http://creativecommons.org/licenses/by-nc-sa/3.0/). 
