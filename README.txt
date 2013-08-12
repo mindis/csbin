@@ -32,7 +32,7 @@ to the following.
 	Data Structures 04: Heaps
 	Algorithms 04: Heapsort
 	Data Structures 05: Red-Black Trees
-	Data Structions 06: Hash Maps
+	Data Structures 06: Hash Maps
 	Techniques 04: Memoization
 	Algorithms 05: Schwartzian Transforms
 	Techniques 05: Dynamic Optimization
