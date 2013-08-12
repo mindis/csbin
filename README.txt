@@ -1,6 +1,5 @@
-------------
 CS Boot Camp
-------------
+============
 In this repository you will find a series of exercises intended for quickly
 developing or refreshing CS skills in programmers. There are two repositories
 of interest.
@@ -16,27 +15,31 @@ the reference implementations.
 
 The following order may prove particularly instructive.
 
-	Data Structures 01: Lists
-	Data Structures 02: Queues and Stacks
-	Techniques 01: Recursion and Iteration
-	Techniques 02: Backtracking
+- Data Structures 01:  Lists
+- Data Structures 02:  Queues and Stacks
+- Techniques 01:       Recursion and Iteration
+- Techniques 02:       Backtracking
 
 Exercises and solutions that are pending include, but are in no way limited
 to the following.
 
-	Techniques 03: Divide and Conquer
-	Data Structures 03: Binary Trees
-	Algorithms 01: Bubble Sort
-	Algorithms 02: Mergesort
-	Algorithms 03: Quicksort
-	Data Structures 04: Heaps
-	Algorithms 04: Heapsort
-	Data Structures 05: Red-Black Trees
-	Data Structures 06: Hash Maps
-	Techniques 04: Memoization
-	Algorithms 05: Schwartzian Transforms
-	Techniques 05: Dynamic Optimization
+- Techniques 03:       Divide and Conquer
+- Data Structures 03:  Binary Trees
+- Algorithms 01:       Bubble Sort
+- Algorithms 02:       Mergesort
+- Algorithms 03:       Quicksort
+- Data Structures 04:  Heaps
+- Algorithms 04:       Heapsort
+- Data Structures 05:  Red-Black Trees
+- Data Structures 06:  Hash Maps
+- Techniques 04:       Memoization
+- Algorithms 05:       Schwartzian Transforms
+- Data Structures 07:  Graphs
+- Algorithms 08:       Shortest Paths
+- Techniques 05:       Dynamic Optimization
 
+License
+-------
 This text and code is distributed under the Creative Commons license 
 CC BY-NC-SA (http://creativecommons.org/licenses/by-nc-sa/3.0/). 
 
