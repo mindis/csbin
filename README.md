@@ -21,7 +21,7 @@ Table of Contents
 The following order may prove particularly instructive.
 
 - Data Structures 01:  [Lists](https://bitbucket.org/ryanjoneil/csbin/src/tip/DataStructures_01_Lists.md)
-- Data Structures 02:  [Queues and Stacks](https://bitbucket.org/ryanjoneil/csbin/src/tip/DataStructures_02_QueuesAndStakcs.md)
+- Data Structures 02:  [Queues and Stacks](https://bitbucket.org/ryanjoneil/csbin/src/tip/DataStructures_02_QueuesAndStacks.md)
 - Techniques 01:       [Recursion and Iteration](https://bitbucket.org/ryanjoneil/csbin/src/tip/Techniques_01_RecursionAndIteration.md)
 - Techniques 02:       [Backtracking](https://bitbucket.org/ryanjoneil/csbin/src/tip/Techniques_02_Backtracking.md)
 
