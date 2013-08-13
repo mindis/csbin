@@ -1,6 +1,8 @@
--------------------------
 Data Structures 01: Lists
--------------------------
+=========================
+
+Discussion
+----------
 In this section we'll explore list structures. There are two fundamental
 types, a Linked List and an Array List. They differ in how they allocate and
 reference memory needed for storing data. An Array List stores all its data
@@ -16,7 +18,6 @@ respectively.
 	| 0 | <-> | 1 | <-> | 2 | <-> | 3 |
 
 
-----------
 Exercise 0
 ----------
 Create an implementation of a Linked List. It should have the following 
@@ -48,26 +49,23 @@ a growth factor which determines how much larger it becomes when a call to
 append(...) overflows its bounds.
 
 
-----------
 Exercise 1
 ----------
 Insert the first 10 integers, 0 to 9, into the a list. Traverse the list in
 order and print them to standard output.
 
 
-----------
 Exercise 2
 ----------
 For n = 100, 1000, ..., 100k, time the following functions against your Linked
 List and for an Array or Array List. If you have an Array List implementation,
 try this against a variety of growth factors.
 
-	a. Append n integers
-	b. Get a random index 10000 times.
-	c. Remove all elements from the front of the list.
+a. Append n integers
+b. Get a random index 10000 times.
+c. Remove all elements from the front of the list.
 
 
----------------------------
 Discussion: Time Complexity
 ---------------------------
 In evaluating the speed of an algorithm, we are often primarily concerned with
@@ -75,11 +73,11 @@ its time complexity. This is a rough measure of the number of fundamental
 operations a computer must perform, given input of a certain size or length.
 Fundamental operations are anything that takes a finite amount of time.
 
-	Reading or writing to memory.
-	Reading or writing to disk.
-	Performing a computation.
-	Sending a packet of data over a network.
-	Etc.
+- Reading or writing to memory.
+- Reading or writing to disk.
+- Performing a computation.
+- Sending a packet of data over a network.
+- Etc.
 
 While these are obviously not all equal in their time impact, we will think of
 them as though they are. Consider the following computation.
@@ -88,12 +86,12 @@ them as though they are. Consider the following computation.
 
 This could consist of the following operations on a hypothetical machine.
 
-	1. Load the value of the variable a from memory into CPU register (1).
-	2. Put the value 3 into another CPU register (2).
-	3. Add the two registers (1) and (2) and store the result in (1).
-	4. Put the value 4 into CPU register (2).
-	5. Multiple (1) and (2) and store the result in (1).
-	6. Copy the value of CPU register (1) into the variable x in memory.
+1. Load the value of the variable a from memory into CPU register (1).
+1. Put the value 3 into another CPU register (2).
+1. Add the two registers (1) and (2) and store the result in (1).
+1. Put the value 4 into CPU register (2).
+1. Multiple (1) and (2) and store the result in (1).
+1. Copy the value of CPU register (1) into the variable x in memory.
 
 This very simple algorithm thus requires 6 operations, regardless of the
 particular value of a. We thus say that the algorithm runs in constant time,
@@ -142,12 +140,11 @@ which is itself inside another for loop. Thus the time complexity is
 O(1 * n * n) = O(n^2), which is known as quadratic time.
 
 
--------------------
 Follow-Up Questions
 -------------------
-What are the time complexities of the various list method for a Linked List?
-What are the time complexities of the various list method for an Array List?
-Under what circumstances might one use one or the other list type?
-Why is removing the first element of a Linked List faster than an Array List?
-How does growth factor affect the speed of appending to an Array List?
-What is the disadvantage of using a high growth factor?
+- What are the time complexities of the various list method for a Linked List?
+- What are the time complexities of the various list method for an Array List?
+- Under what circumstances might one use one or the other list type?
+- Why is removing the first element of a Linked List faster than an Array List?
+- How does growth factor affect the speed of appending to an Array List?
+- What is the disadvantage of using a high growth factor?

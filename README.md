@@ -7,8 +7,8 @@ In this repository you will find a series of exercises intended for quickly
 developing or refreshing CS skills in programmers. There are two repositories
 of interest.
 
-> https://bitbucket.org/ryanjoneil/csbin/
-> https://bitbucket.org/ryanjoneil/cslib/
+- https://bitbucket.org/ryanjoneil/csbin/
+- https://bitbucket.org/ryanjoneil/cslib/
 
 The former contains problem descriptions and discussions (.md files), along
 with reference solutions written in the language Go (.go files). The latter
