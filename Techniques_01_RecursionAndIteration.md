@@ -1,6 +1,8 @@
-------------------------------------
 Techniques 01: Recursion & Iteration
-------------------------------------
+====================================
+
+Discussion
+----------
 There are two types of control flow structures available to us for expressing
 loops: recursion and iteration. While the circumstances that might lead one to
 choose one or the other differ, they are functionally equivalent. Any loop
@@ -85,7 +87,6 @@ This one executes in linear time and constant space, like the iterative one.
 	|-- return 10
 
 
-----------
 Exercise 1
 ----------
 The factorial function, usually denoted n!, is defined as follows.
@@ -97,7 +98,6 @@ Write recursive, iterative, and tail recursive versions of this function.
 Compute the value of 10!.
 
 
-----------
 Exercise 2
 ----------
 The Fibonacci sequence is defined as follows.
@@ -112,7 +112,6 @@ Write recursive, iterative, and tail recursive versions of this function.
 Compute the value of fib(25).
 
 
----------------------------
 Discussion: List Processing
 ---------------------------
 Two of the first high level programming languages which emerged in the 1950s
@@ -140,10 +139,9 @@ their invocations. Thus, cadr would return the head of the tail of a list.
 	                 = 2
 
 
--------------------
 Follow-Up Questions
 -------------------
-How would one implement head(...) and tail(...)?
-Is it better to use a Linked or an Array List with head(...) and tail(...)?
-What are the time and space complexities of the three factorial functions?
-What are the time and space complexities of the three Fibonacci functions?
+- How would one implement head(...) and tail(...)?
+- Is it better to use a Linked or an Array List with head(...) and tail(...)?
+- What are the time and space complexities of the three factorial functions?
+- What are the time and space complexities of the three Fibonacci functions?

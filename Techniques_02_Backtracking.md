@@ -1,6 +1,8 @@
----------------------------
 Techniques 02: Backtracking
----------------------------
+===========================
+
+Discussion
+----------
 Backtracking is a computational technique in which one incrementally builds
 solutions to a given problem. If a solution under consideration is found to be
 not viable, one backtracks to a known acceptable point and attempts to build
@@ -39,18 +41,17 @@ if they cannot.
 		return false
 
 
-----------
+
 Exercise 1
 ----------
 Solve the N-Queens problem recursively. Print out a placement of 8 queens
 on a chess board.
 
 
--------------------
 Follow-Up Questions
 -------------------
-What does the final return statement do?
-How does one test for conflicts between queens?
-What is the worst case time complexity of this algorithm?
-How does that take into account testing for conflicts?
-Is this algorithm tail recursive? What is its space complexity?
+- What does the final return statement do?
+- How does one test for conflicts between queens?
+- What is the worst case time complexity of this algorithm?
+- How does that take into account testing for conflicts?
+- Is this algorithm tail recursive? What is its space complexity?
