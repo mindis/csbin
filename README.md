@@ -37,10 +37,11 @@ to the following.
 - Algorithms 05:       Heapsort
 - Data Structures 05:  Red-Black Trees
 - Data Structures 06:  Hash Maps
-- Techniques 04:       Memoization
+- Techniques 03:       Memoization
+- Algorithms 06:       Depth-First Search
 - Data Structures 07:  Graphs
-- Algorithms 06:       Shortest Paths
-- Techniques 05:       Dynamic Optimization
+- Algorithms 07:       Shortest Paths
+- Techniques 04:       Dynamic Optimization
 
 License
 -------

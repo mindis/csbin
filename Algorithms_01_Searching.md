@@ -1,4 +1,4 @@
-Techniques 03: Searching
+Algorithms 01: Searching
 ========================
 
 

@@ -41,6 +41,8 @@ func testList(listType string, n int, list cslib.List) {
 }
 
 func main() {
+	rand.Seed(time.Now().UTC().UnixNano())
+
 	var list cslib.List
 
 	// 1. Insert 10 integers and print them out in order.
