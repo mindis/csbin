@@ -11,7 +11,7 @@ contiguously, such as:
 	| 0 | 1 | 2 | 3 |
 
 While a Linked List stores each data item separately in memory. Each data
-item is part of a Node which links to the item before and after it. The
+item is part of a LinkedListNode which links to the item before and after it. The
 list has a Head and a Tail, which are the first and last nodes in the list,
 respectively.
 
@@ -23,10 +23,10 @@ Exercise 0
 Create an implementation of a Linked List. It should have the following 
 structure:
 
-	class Node:
+	class LinkedListNode:
 		attributes:
-			next Node
-			previous Node
+			next LinkedListNode
+			previous LinkedListNode
 			value int
 
 	class LinkedList:
@@ -39,8 +39,8 @@ structure:
 			traverse(func(int))
 		
 		attributes:
-			head Node
-			tail Node
+			head LinkedListNode
+			tail LinkedListNode
 			len int
 
 If you have access to an underlying array type, implement an Array List with
