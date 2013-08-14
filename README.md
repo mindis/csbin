@@ -28,19 +28,18 @@ The following order may prove particularly instructive.
 Exercises and solutions that are pending include, but are in no way limited
 to the following.
 
-- Techniques 03:       Searching
-- Data Structures 03:  Binary Trees
-- Algorithms 01:       Bubble Sort
-- Algorithms 02:       Mergesort
-- Algorithms 03:       Quicksort
+- Data Structures 03:  [Binary Trees](https://bitbucket.org/ryanjoneil/csbin/src/tip/DataStructures_03_BinaryTrees.md)
+- Algorithms 01:       [Searching](https://bitbucket.org/ryanjoneil/csbin/src/tip/Algorithms_01_Searching.md)
+- Algorithms 02:       Bubble Sort
+- Algorithms 03:       Mergesort
+- Algorithms 04:       Quicksort
 - Data Structures 04:  Heaps
-- Algorithms 04:       Heapsort
+- Algorithms 05:       Heapsort
 - Data Structures 05:  Red-Black Trees
 - Data Structures 06:  Hash Maps
 - Techniques 04:       Memoization
-- Algorithms 05:       Schwartzian Transforms
 - Data Structures 07:  Graphs
-- Algorithms 08:       Shortest Paths
+- Algorithms 06:       Shortest Paths
 - Techniques 05:       Dynamic Optimization
 
 License
