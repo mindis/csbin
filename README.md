@@ -28,7 +28,7 @@ The following order may prove particularly instructive.
 Exercises and solutions that are pending include, but are in no way limited
 to the following.
 
-- Techniques 03:       Divide and Conquer
+- Techniques 03:       Searching
 - Data Structures 03:  Binary Trees
 - Algorithms 01:       Bubble Sort
 - Algorithms 02:       Mergesort
@@ -50,4 +50,4 @@ CC BY-NC-SA (http://creativecommons.org/licenses/by-nc-sa/3.0/).
 
 Contact
 -------
-Ryan J. O'Neil <ryanjoneil@gmail.com>
+[Ryan J. O'Neil](mailto:ryanjoneil@gmail.com)
