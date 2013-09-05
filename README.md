@@ -25,11 +25,11 @@ The following order may prove particularly instructive.
 - Techniques 01:       [Recursion and Iteration](https://bitbucket.org/ryanjoneil/csbin/src/tip/Techniques_01_RecursionAndIteration.md)
 - Techniques 02:       [Backtracking](https://bitbucket.org/ryanjoneil/csbin/src/tip/Techniques_02_Backtracking.md)
 - Data Structures 03:  [Binary Trees](https://bitbucket.org/ryanjoneil/csbin/src/tip/DataStructures_03_BinaryTrees.md)
+- Algorithms 01:       [Searching](https://bitbucket.org/ryanjoneil/csbin/src/tip/Algorithms_01_Searching.md)
 
 Exercises and solutions that are pending include, but are in no way limited
 to the following.
 
-- Algorithms 01:       [Searching](https://bitbucket.org/ryanjoneil/csbin/src/tip/Algorithms_01_Searching.md)
 - Algorithms 02:       Bubble Sort
 - Algorithms 03:       Mergesort
 - Algorithms 04:       Quicksort
