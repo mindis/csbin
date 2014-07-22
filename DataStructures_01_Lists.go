@@ -1,7 +1,7 @@
 package main
 
 import (
-	"bitbucket.org/ryanjoneil/cslib"
+	"github.com/ryanjoneil/cslib"
 	"fmt"
 	"math"
 	"math/rand"
