@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/ryanjoneil/cslib"
 	"fmt"
+	"github.com/ryanjoneil/cslib"
 )
 
 func main() {
