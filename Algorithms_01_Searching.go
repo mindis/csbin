@@ -31,7 +31,7 @@ func main() {
 		fmt.Printf("% 6d ms\n", millis)
 	}
 
-	fmt.Println("\nExercise 2: 1 million random Array List searches")
+	fmt.Println("\nExercise 2: 10,000 random Array List searches")
 	for length := 10; length <= 1000000; length *= 10 {
 		fmt.Printf("List Length % 8d: ", length)
 
@@ -41,7 +41,7 @@ func main() {
 		}
 
 		before := time.Now()
-		for j := 0; j < 1000000; j++ {
+		for j := 0; j < 10000; j++ {
 			value := rand.Intn(list.Length() * 2)
 			index := list.Search(value)
 
@@ -54,23 +54,23 @@ func main() {
 		fmt.Printf("% 6d ms\n", millis)
 	}
 
-	fmt.Println("\nExercise 3: 1 million random Binary Tree searches")
+	fmt.Println("\nExercise 3: 10,000 random Binary Tree searches")
 	for length := 10; length <= 1000000; length *= 10 {
-		fmt.Printf("List Length % 8d: ", length)
+		fmt.Printf("Tree Size % 8d: ", length)
 
-		list := &cslib.ArrayList{Growth: 2.0}
+		tree := &cslib.BinaryTree{}
 		for i := 0; i < length; i++ {
-			list.Append(2 * i)
+			tree.Insert(rand.Intn(length * 2))
 		}
 
 		before := time.Now()
-		for j := 0; j < 1000000; j++ {
-			value := rand.Intn(list.Length() * 2)
-			index := list.Search(value)
+		for j := 0; j < 10000; j++ {
+			value := rand.Intn(length * 2)
+			node := tree.Search(value)
 
 			// Sanity check.
-			if index != -1 && list.Get(index) != value {
-				fmt.Printf("list[%d] == %d, != %d\n", index, list.Get(index), value)
+			if node != nil && node.Value != value {
+				fmt.Printf("%d, != %d\n", node.Value, value)
 			}
 		}
 		millis := int((time.Now().Sub(before)) / time.Millisecond)

@@ -83,14 +83,20 @@ we have O(1)-time retrievals, so our search time in this case is O(log n).
 
 Exercise 1
 ----------
+For n = 10, 100, ..., 1 million, created a sorted Linked List of the first
+n even numbers. Time 10,000 random searches against these lists.
 
 
 Exercise 2
 ----------
+For n = 10, 100, ..., 1 million, created a sorted Array List of the first
+n even numbers. Time 10,000 random searches against these lists.
 
 
 Exercise 3
 ----------
+For n = 10, 100, ..., 1 million, created a Binary Tree and insert n random
+integers into it. Time 10,000 random searches against these trees.
 
 
 Follow-Up Questions
