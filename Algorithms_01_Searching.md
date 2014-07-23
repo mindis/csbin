@@ -101,3 +101,8 @@ integers into it. Time 10,000 random searches against these trees.
 
 Follow-Up Questions
 -------------------
+* Does it make a difference if the data is sorted for the Linked List?
+* What is the time complexity of the Binary Tree search if the tree
+  is balanced?
+* If data is inserted into a Binary Tree in sorted order, it resembles a
+  Linked List is structure. What does this mean for its search time?
